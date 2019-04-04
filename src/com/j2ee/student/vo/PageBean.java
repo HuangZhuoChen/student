@@ -1,8 +1,8 @@
-package com.situ.student.vo;
+package com.j2ee.student.vo;
 
 import java.util.List;
 
-import com.situ.student.entity.Student;
+import com.j2ee.student.entity.Student;
 
 public class PageBean<T> {
 	// 当前是第几页

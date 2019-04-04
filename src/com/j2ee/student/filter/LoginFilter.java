@@ -1,4 +1,4 @@
-package com.situ.student.filter;
+package com.j2ee.student.filter;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.situ.student.entity.User;
+import com.j2ee.student.entity.User;
 
 public class LoginFilter implements Filter{
 

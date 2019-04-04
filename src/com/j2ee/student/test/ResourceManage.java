@@ -1,4 +1,4 @@
-package com.situ.student.test;
+package com.j2ee.student.test;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;

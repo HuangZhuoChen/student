@@ -1,10 +1,10 @@
-package com.situ.student.service;
+package com.j2ee.student.service;
 
 import java.util.List;
 
-import com.situ.student.entity.Student;
-import com.situ.student.vo.PageBean;
-import com.situ.student.vo.StudentSearchCondition;
+import com.j2ee.student.entity.Student;
+import com.j2ee.student.vo.PageBean;
+import com.j2ee.student.vo.StudentSearchCondition;
 
 public interface IStudentService {
 

@@ -1,4 +1,4 @@
-package com.situ.student.controller;
+package com.j2ee.student.controller;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.situ.student.util.JDBCUtil;
+import com.j2ee.student.util.JDBCUtil;
 
 public class InitServlet extends HttpServlet {
 	@Override

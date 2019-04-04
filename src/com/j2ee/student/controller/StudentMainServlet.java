@@ -1,4 +1,4 @@
-package com.situ.student.controller;
+package com.j2ee.student.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -16,14 +16,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.situ.student.entity.Banji;
-import com.situ.student.entity.Student;
-import com.situ.student.service.IStudentService;
-import com.situ.student.service.impl.StudentServiceImpl;
-import com.situ.student.util.Constant;
-import com.situ.student.util.JDBCUtil;
-import com.situ.student.vo.PageBean;
-import com.situ.student.vo.StudentSearchCondition;
+import com.j2ee.student.entity.Banji;
+import com.j2ee.student.entity.Student;
+import com.j2ee.student.service.IStudentService;
+import com.j2ee.student.service.impl.StudentServiceImpl;
+import com.j2ee.student.util.Constant;
+import com.j2ee.student.util.JDBCUtil;
+import com.j2ee.student.vo.PageBean;
+import com.j2ee.student.vo.StudentSearchCondition;
 
 public class StudentMainServlet extends BaseServlet {
 	private IStudentService studentService = new StudentServiceImpl();

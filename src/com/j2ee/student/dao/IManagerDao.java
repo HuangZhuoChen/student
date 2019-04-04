@@ -1,4 +1,4 @@
-package com.situ.student.dao;
+package com.j2ee.student.dao;
 
 import java.util.List;
 import java.util.Map;

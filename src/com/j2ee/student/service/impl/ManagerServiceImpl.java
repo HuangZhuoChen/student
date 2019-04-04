@@ -1,11 +1,11 @@
-package com.situ.student.service.impl;
+package com.j2ee.student.service.impl;
 
 import java.util.List;
 import java.util.Map;
 
-import com.situ.student.dao.IManagerDao;
-import com.situ.student.dao.impl.ManagerDaoImpl;
-import com.situ.student.service.IManagerService;
+import com.j2ee.student.dao.IManagerDao;
+import com.j2ee.student.dao.impl.ManagerDaoImpl;
+import com.j2ee.student.service.IManagerService;
 
 public class ManagerServiceImpl implements IManagerService {
 	private IManagerDao managerDao = new ManagerDaoImpl();

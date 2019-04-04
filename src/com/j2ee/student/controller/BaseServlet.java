@@ -1,4 +1,4 @@
-package com.situ.student.controller;
+package com.j2ee.student.controller;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;

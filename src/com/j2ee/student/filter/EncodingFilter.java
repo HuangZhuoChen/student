@@ -1,4 +1,4 @@
-package com.situ.student.filter;
+package com.j2ee.student.filter;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

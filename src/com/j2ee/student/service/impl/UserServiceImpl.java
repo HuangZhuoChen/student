@@ -1,9 +1,9 @@
-package com.situ.student.service.impl;
+package com.j2ee.student.service.impl;
 
-import com.situ.student.dao.IUserDao;
-import com.situ.student.dao.impl.UserDaoImpl;
-import com.situ.student.entity.User;
-import com.situ.student.service.IUserService;
+import com.j2ee.student.dao.IUserDao;
+import com.j2ee.student.dao.impl.UserDaoImpl;
+import com.j2ee.student.entity.User;
+import com.j2ee.student.service.IUserService;
 
 public class UserServiceImpl implements IUserService {
 	private IUserDao userDao = new UserDaoImpl();

@@ -1,4 +1,4 @@
-package com.situ.student.listener;
+package com.j2ee.student.listener;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import javax.servlet.http.HttpSession;
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
 
-import com.situ.student.entity.User;
+import com.j2ee.student.entity.User;
 
 public class MyHttpSessionListener implements HttpSessionListener {
 

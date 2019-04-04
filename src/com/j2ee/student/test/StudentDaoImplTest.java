@@ -1,4 +1,4 @@
-package com.situ.student.test;
+package com.j2ee.student.test;
 
 import java.util.Date;
 import java.util.List;
@@ -8,9 +8,9 @@ import javax.swing.text.html.FormSubmitEvent;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.situ.student.dao.IStudentDao;
-import com.situ.student.dao.impl.StudentDaoImpl;
-import com.situ.student.entity.Student;
+import com.j2ee.student.dao.IStudentDao;
+import com.j2ee.student.dao.impl.StudentDaoImpl;
+import com.j2ee.student.entity.Student;
 
 public class StudentDaoImplTest {
 	private IStudentDao studentDao;

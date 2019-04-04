@@ -1,4 +1,4 @@
-package com.situ.student.util;
+package com.j2ee.student.util;
 
 public class Constant {
 	//添加返回标志

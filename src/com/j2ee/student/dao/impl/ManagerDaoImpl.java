@@ -1,4 +1,4 @@
-package com.situ.student.dao.impl;
+package com.j2ee.student.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -13,11 +13,11 @@ import java.util.Map;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.MapListHandler;
 
-import com.situ.student.dao.IManagerDao;
-import com.situ.student.entity.Student;
-import com.situ.student.util.C3P0Util;
-import com.situ.student.util.JDBCUtil;
-import com.situ.student.util.ModelConvert;
+import com.j2ee.student.dao.IManagerDao;
+import com.j2ee.student.entity.Student;
+import com.j2ee.student.util.C3P0Util;
+import com.j2ee.student.util.JDBCUtil;
+import com.j2ee.student.util.ModelConvert;
 
 public class ManagerDaoImpl implements IManagerDao {
 	private QueryRunner queryRunner = new QueryRunner(C3P0Util.getDataSource());

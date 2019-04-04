@@ -1,4 +1,4 @@
-package com.situ.student.controller;
+package com.j2ee.student.controller;
 
 import java.io.IOException;
 import java.util.List;
@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.situ.student.entity.User;
-import com.situ.student.service.IUserService;
-import com.situ.student.service.impl.UserServiceImpl;
+import com.j2ee.student.entity.User;
+import com.j2ee.student.service.IUserService;
+import com.j2ee.student.service.impl.UserServiceImpl;
 
 /**
  * Servlet implementation class LoginServlet2

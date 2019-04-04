@@ -1,6 +1,6 @@
-package com.situ.student.dao;
+package com.j2ee.student.dao;
 
-import com.situ.student.entity.User;
+import com.j2ee.student.entity.User;
 
 public interface IUserDao {
 

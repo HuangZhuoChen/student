@@ -1,4 +1,4 @@
-package com.situ.student.listener;
+package com.j2ee.student.listener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-import com.situ.student.entity.User;
+import com.j2ee.student.entity.User;
 
 public class OnLineUserListener implements ServletContextListener{
 

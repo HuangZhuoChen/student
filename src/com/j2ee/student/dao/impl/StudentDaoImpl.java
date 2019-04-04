@@ -1,4 +1,4 @@
-package com.situ.student.dao.impl;
+package com.j2ee.student.dao.impl;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -12,12 +12,12 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
-import com.situ.student.dao.IStudentDao;
-import com.situ.student.entity.Banji;
-import com.situ.student.entity.Student;
-import com.situ.student.util.C3P0Util;
-import com.situ.student.util.JDBCUtil;
-import com.situ.student.vo.StudentSearchCondition;
+import com.j2ee.student.dao.IStudentDao;
+import com.j2ee.student.entity.Banji;
+import com.j2ee.student.entity.Student;
+import com.j2ee.student.util.C3P0Util;
+import com.j2ee.student.util.JDBCUtil;
+import com.j2ee.student.vo.StudentSearchCondition;
 
 public class StudentDaoImpl implements IStudentDao {
 	private QueryRunner queryRunner = new QueryRunner(C3P0Util.getDataSource());

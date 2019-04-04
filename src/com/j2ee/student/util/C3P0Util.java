@@ -1,4 +1,4 @@
-package com.situ.student.util;
+package com.j2ee.student.util;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

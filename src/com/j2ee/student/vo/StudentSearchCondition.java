@@ -1,4 +1,4 @@
-package com.situ.student.vo;
+package com.j2ee.student.vo;
 
 public class StudentSearchCondition {
 	// 当前是第几页

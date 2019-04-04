@@ -1,16 +1,16 @@
-package com.situ.student.service.impl;
+package com.j2ee.student.service.impl;
 
 import java.util.List;
 
 import javax.naming.InitialContext;
 
-import com.situ.student.dao.IStudentDao;
-import com.situ.student.dao.impl.StudentDaoImpl;
-import com.situ.student.entity.Student;
-import com.situ.student.service.IStudentService;
-import com.situ.student.util.Constant;
-import com.situ.student.vo.PageBean;
-import com.situ.student.vo.StudentSearchCondition;
+import com.j2ee.student.dao.IStudentDao;
+import com.j2ee.student.dao.impl.StudentDaoImpl;
+import com.j2ee.student.entity.Student;
+import com.j2ee.student.service.IStudentService;
+import com.j2ee.student.util.Constant;
+import com.j2ee.student.vo.PageBean;
+import com.j2ee.student.vo.StudentSearchCondition;
 
 public class StudentServiceImpl implements IStudentService {
 	private IStudentDao studentDao = new StudentDaoImpl();

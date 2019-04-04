@@ -1,10 +1,10 @@
-package com.situ.student.dao;
+package com.j2ee.student.dao;
 
 
 import java.util.List;
 
-import com.situ.student.entity.Student;
-import com.situ.student.vo.StudentSearchCondition;
+import com.j2ee.student.entity.Student;
+import com.j2ee.student.vo.StudentSearchCondition;
 /**
  * student操作的dao 
  */

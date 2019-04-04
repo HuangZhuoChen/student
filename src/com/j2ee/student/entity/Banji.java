@@ -1,4 +1,4 @@
-package com.situ.student.entity;
+package com.j2ee.student.entity;
 
 public class Banji {
 	private Integer id;

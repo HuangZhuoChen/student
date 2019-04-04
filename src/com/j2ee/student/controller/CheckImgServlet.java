@@ -1,4 +1,4 @@
-package com.situ.student.controller;
+package com.j2ee.student.controller;
 
 import java.awt.Color;
 import java.awt.Font;
